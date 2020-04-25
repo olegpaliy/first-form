@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">       
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First form</title>
+</head>
+<body>
+    
+    <form action="/action_page.php">
+        <fieldset>
+         <legend>Registration form:</legend>
+    
+
+    <main>
+        <p>Who are you?</p>
+
+        <label for="email"> Email:</label>
+            <input type="email" id="email" name="email" placeholder="input your email"><br><br>
+        <label for="pwd">Password:</label>
+            <input type="password" id="password" name="password" placeholder="minimum 5 characters"><br><br>
+        <label for="First name">First name:</label>
+            <input type="First name" id="First name" name="First name" c><br><br>  
+        <label for="age">Age:</label>
+            <input type="number" id="number" name="number" min="0">
+
+        <p>Where are you from?</p>
+
+        <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="DPRK">DPRK</option>
+                <option value="China">China</option>
+                <option value="Mongolia">Mongolia</option>
+                <option value="Moldova">Moldova</option>
+            </select>
+
+        <p>What's your gender?</p>
+        
+        <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label><br>
+        <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label><br>
+        <input type="radio" name="gender" id="dick owner" value="dick owner">
+            <label for="dick owner">Dick Owner</label>
+
+        <p>When where you born? </p>
+
+        <label for="birthday">Birthday:</label>
+            <input type="date" name="birthday" id="birthday"><br><br>
+
+            <input type="checkbox" id="policy" name="policy" value="agree">
+            <label for="policy"> Do you agree to our privacy policy?</label><br><br>
+
+             <input type="submit" value="submit">
+            
+            
+            
+
+        
+    </main>
+</fieldset>
+</form>
+
+
+    
+</body>
+</html>
